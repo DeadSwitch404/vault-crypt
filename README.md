@@ -44,7 +44,13 @@ You are the cloud. You are the guardian.
 
 ## 📂 File Structure
 
-
+```text
+.
+├── examples
+│   └── sample.env
+├── README.md
+└── vault-crypt.sh
+```
 
 ---
 
