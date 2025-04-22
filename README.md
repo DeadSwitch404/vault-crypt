@@ -117,10 +117,10 @@ DeadSwitch recommends using chmod 600 and storing it on encrypted storage.
 ## 🕳️ Backdoor-Free Guarantee
 
 `grep -r curl .`
-# (nothing found)
+(nothing found)
 
 `grep -r wget .`
-# (silence)
+(silence)
 
 # You’re home.
 
