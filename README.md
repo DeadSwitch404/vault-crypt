@@ -102,8 +102,8 @@ CURRENT_DIR="$PWD"
 
 ### Important:
 
-Keep this .env file outside of version control.
-DeadSwitch recommends using chmod 600 and storing it on encrypted storage.
+Keep this `.env` file outside of version control.
+DeadSwitch recommends using `chmod 600` and storing it on encrypted storage.
 
 ## Bonus: Harden Your Flow
 
@@ -113,15 +113,11 @@ DeadSwitch recommends using chmod 600 and storing it on encrypted storage.
 
 ## Backdoor-Free Guarantee
 
-`grep -r curl .`
-(nothing found)
-
-`grep -r wget .`
-(silence)
+Audit it yourself.
 
 # You're home.
 
-## 🪪 License
+## License
 
 MIT.
 
