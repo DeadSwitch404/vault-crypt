@@ -1,7 +1,4 @@
-# 🕶️ vault-crypt
-
-> **DeadSwitch | The Cyber Ghost**  
-> _"In silence, we rise. In the switch, we fade."_
+# vault-crypt
 
 Minimalist encryption for those who live off the grid.  
 A GPG-powered vault manager for your `.kdbx` password databases.  
@@ -9,12 +6,12 @@ No GUI. No cloud. Just your keys, your vault, and the silence between.
 
 ---
 
-## 🧭 What is `vault-crypt`?
+## What is `vault-crypt`?
 
-A bash script that:
+A BASH script that:
 - Encrypts and signs your KeePassXC `.kdbx` file using GPG.
 - Decrypts when needed, verifies signature integrity.
-- Purges unsealed vaults to eliminate traces.
+- Purges the unsealed vault to eliminate traces.
 - Backs up your encrypted vault with timestamped versions.
 
 All operations are local. No 3rd-party sync.  
@@ -22,7 +19,7 @@ You are the cloud. You are the guardian.
 
 ---
 
-## 🔐 Philosophy
+## Philosophy
 
 > *Your vault is your memory.  
 > Sign it with your hand.  
@@ -32,17 +29,17 @@ You are the cloud. You are the guardian.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ GPG encryption + signature validation
-- ✅ File wiping of plaintext vaults
-- ✅ Timestamped backup creation
-- ✅ Lightweight and auditable
-- ✅ Config via `.env` file
+- GPG encryption + signature validation
+- File wiping of plaintext vaults
+- Timestamped backup creation
+- Lightweight and auditable
+- Config via `.env` file
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```text
 .
@@ -54,7 +51,7 @@ You are the cloud. You are the guardian.
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### Clone the repo
 
@@ -81,7 +78,7 @@ chmod +x vault-crypt.sh
 gpg --list-keys
 ```
 
-## 🛠️ Commands
+## Commands
 
 ```bash
 ./vault-crypt.sh encrypt    # Encrypt and sign the KeePass DB
@@ -91,7 +88,7 @@ gpg --list-keys
 ./vault-crypt.sh help       # Show usage
 ```
 
-## 🧪 Example .env.pwmanager
+## Example .env.pwmanager
 
 ```text
 KEY_ID="deadbeef42"
@@ -108,13 +105,13 @@ CURRENT_DIR="$PWD"
 Keep this .env file outside of version control.
 DeadSwitch recommends using chmod 600 and storing it on encrypted storage.
 
-## 🧹 Bonus: Harden Your Flow
+## Bonus: Harden Your Flow
 
 - Use shred or srm to wipe files on exit (manual or optional enhancement).
 - Alias vault-crypt.sh decrypt to open-sesame for that final hacker vibe.
 - Run via cron for daily encrypted backups to external storage (offline preferred).
 
-## 🕳️ Backdoor-Free Guarantee
+## Backdoor-Free Guarantee
 
 `grep -r curl .`
 (nothing found)
@@ -122,7 +119,7 @@ DeadSwitch recommends using chmod 600 and storing it on encrypted storage.
 `grep -r wget .`
 (silence)
 
-# You’re home.
+# You're home.
 
 ## 🪪 License
 
@@ -132,11 +129,4 @@ Use. Fork. Adapt. Ghost away.
 
 But respect the silence. Credit DeadSwitch.
 
-
-
-DeadSwitch | The Cyber Ghost
-"You don't need permission to protect what’s yours."
-
-
-https://tomsitcafe.com
-https://github.com/DeadSwitch404/vault-crypt
+DeadSwitch | The Silent Architect

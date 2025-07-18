@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
 # vault-crypt.sh
-# DeadSwitch | The Cyber Ghost
-# "In silence, we rise. In the switch, we fade."
-# https://tomsitcafe.com | https://github.com/DeadSwitch404/vault-crypt
-
+# DeadSwitch | The Silent Architect
 
 set -euo pipefail  # Exit on error, unset var, or pipeline failure
 IFS=$'\n\t'
